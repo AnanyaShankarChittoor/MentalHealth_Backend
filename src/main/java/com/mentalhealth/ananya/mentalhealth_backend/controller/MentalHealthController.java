@@ -17,7 +17,8 @@ public class MentalHealthController {
 
     @PostMapping("/api/v1/chat")
     public String chatWithBot(@RequestBody String userMessage) {
-        // Simple bot logic  (can be enhanced later)
+        // Simple bot logic 
+        // (can be enhanced later)
         return "You said: " + userMessage + ". How can I help you?";
     }
 }
